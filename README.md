@@ -2,7 +2,9 @@
 This is the python code for paper :"Geotagging Named Entities in News and Online Documents"
 
 Author : Nima Miryeganeh
+
 WWW.MIRYEGANEH.COM
+
 N.MIRYEGANE@GMAIL.COM
 
 to run the code follow these simple steps : 

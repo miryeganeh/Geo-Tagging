@@ -1,5 +1,5 @@
 # Geo-Tagging
-This is the python code for paper :"Geotagging Named Entities in News and Online Documents"
+This is the python code for paper :  J. Yu, D. Rafiei, Geotagging named entities in news and online documents, CIKM 2016.
 
 Author : Nima Miryeganeh
 
@@ -18,4 +18,4 @@ to run the code follow these simple steps :
 4- Run the code : python GeoTagger.py
 
 
-Warning : In this program you need to be connected to internet while the code in runing, bacause the code needs to get the documents from www.exalead.com .So the speed of the program depends on your internet speed . 
+Warning : In this program you need to be connected to internet while the code in running, bacause the code needs to get the documents from www.exalead.com .So the speed of the program depends on your internet speed . 

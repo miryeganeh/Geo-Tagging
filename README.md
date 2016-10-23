@@ -1,5 +1,5 @@
 # Geo-Tagging
-This is the python code for paper :  J. Yu, D. Rafiei, Geotagging named entities in news and online documents, CIKM 2016.
+This is the python code for paper : "J. Yu, D. Rafiei, Geotagging named entities in news and online documents, CIKM 2016."
 
 Author : Nima Miryeganeh
 

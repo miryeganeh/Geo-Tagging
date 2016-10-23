@@ -106,6 +106,7 @@ def Indexes_located(seq,item):
             start_at = loc
     return locs
 
+
 def Pdist(Locations,NamedEntity,DocumentText):
     # This function calculate Pnear(l|d,n) for all location in Locations and return a dictionary
 
@@ -129,7 +130,8 @@ def Pdist(Locations,NamedEntity,DocumentText):
 
     denominator_sum=0
     for loca in dictionary:
-        denominator_sum+=1/dictionary[loca]
+        if dictionary[loca]!=0:
+            denominator_sum+=1/dictionary[loca]
 
     result={}
     for loca in dictionary:
@@ -215,4 +217,3 @@ if __name__ == "__main__":
                 print "\n###########   Next Page     #############"
                 count+=1
         print "\n#######################\n#######################\n##### NEXT QUERY ######\n#######################\n#######################"
-        # break
